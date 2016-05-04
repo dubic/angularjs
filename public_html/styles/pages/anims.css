@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-May-2016, 16:11:58
+    Author     : DUBEM
+*/
+.mini_page{
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+/*.mini_page.ng-hide-add, .mini_page.ng-hide-remove {
+    transition: all linear 0.3s;
+}*/
+
+/*.mini_page.ng-hide {
+  line-height: 0;
+  opacity: 0;
+  padding: 0 10px;
+animation: fadeIn 1s;
+}*/
+.mini_page.ng-enter {
+    animation: fadeIn 0.5s;
+}
+.mini_page.ng-hide {
+    animation: fadeOut 0.5s;
+}
